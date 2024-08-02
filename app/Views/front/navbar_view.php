@@ -6,7 +6,7 @@ $perfil = $session->get('perfil_id');
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand mx-auto" href="<?= base_url('principal_ultimo'); ?>">
-        <img src="https://i.postimg.cc/G3G2YxJp/td.png" class="logobarra" alt="Logo">
+        <img src="<?= base_url('./public/assets/img/logobarra.png'); ?>" class="logobarra" alt="Logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
