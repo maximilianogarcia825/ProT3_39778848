@@ -11,7 +11,7 @@ class login_controller extends Controller
 
     public function index() {
         $data['titulo'] = 'Iniciar Sesión';
-        echo view('front/head_view', $data);
+        echo view('front/head', $data);
         echo view('front/navbar_view');
         echo view('back/usuario/login');
         echo view('front/footer_view');

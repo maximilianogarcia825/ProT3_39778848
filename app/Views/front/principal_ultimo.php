@@ -55,7 +55,8 @@
                     <p>Gratuito (El programa formativo es financiado por el Gobierno de la Provincia de Corrientes)</p>
                 </div>
             </div>
-            <img src="https://i.postimg.cc/05DGV3qR/programador.avif" alt="Descripción de la Imagen" class="programador" style="width: 600px"> 
+            <img src="<?php echo base_url('./public/assets/img/programador.jpg'); ?>" alt="Descripción de la Imagen" class="programador" style="width: 600px;">
+
         </div>
     </div>
 </section>

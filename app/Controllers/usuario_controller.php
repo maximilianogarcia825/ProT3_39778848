@@ -11,7 +11,7 @@ class usuario_Controller extends Controller
     
     public function create() {
         $data['titulo'] = 'Registro';
-        echo view('front/head_view', $data);
+        echo view('front/head', $data);
         echo view('front/navbar_view');
         echo view('back/usuario/registro');
         echo view('front/footer_view');
@@ -28,7 +28,7 @@ class usuario_Controller extends Controller
         
         if (!$this->validate($rules)) {
             $data['titulo'] = 'Registro';
-            echo view('front/head_view', $data);
+            echo view('front/head', $data);
             echo view('front/navbar_view');
             echo view('back/usuario/registro', ['validation' => $this->validator]);
             echo view('front/footer_view');
